@@ -1,0 +1,159 @@
+body {
+	background-color: black;
+
+}
+
+
+
+h1 {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+		text-align: center;
+
+}
+
+nav {
+
+
+}
+
+#tiers {
+
+
+}
+.row{
+	padding-top: 10px;
+
+}
+
+
+.container-fluid {
+
+
+}
+
+footer p {
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+
+}
+
+.bgwhite {
+	background-color: white;
+}
+
+.bgred {
+	background-color: red;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+.packagecontent {
+	background-color: #ffe4c4;
+	text-align: center;
+}
+.textheader {
+	background-image: url("../IMAGES/Headerimage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.textheader h1 {
+	font-family: Cinzel Decorative;
+
+}
+
+.h1 {
+  background: rgba(255, 0, 0, 0.6);
+
+
+}
+
+.nav-item a {
+	font-size: 40px;
+	margin-left: 10px;
+}
+
+.btnmain {
+	margin-right: 100px;
+	margin-left: 30px;
+}
+
+.hostingpage {
+	background-color: #4254bc;
+}
+.hostingpage p {
+	font-size: 30px;
+}
+
+.packagemain {
+	background-color: pink;
+}
+
+
+.about {
+	background-color: pink;
+}
+
+.founder {
+	width: 350px;
+	height: 500px;
+}
+.team {
+	background-color: white; 
+}
+
+.team {
+	background-color: #3f0b4f;
+}
+
+.team p {
+	color: white;
+}
+
+.team h4 {
+	color: white;
+}
+
+.team h3 {
+	color: white;
+}
+
+.headbtn {
+	margin-bottom: 10px;
+}
+
+.packagebtn {
+	margin-left: 100px;
+}
+
+.datetime p {
+	color: white;
+}
+
+
+.contactbg {
+	background-color: rgb(43, 102, 46);
+}
+
+.formmarg {
+	padding-top:10px;
+	padding-bottom:30px;
+	margin-bottom: -3px;
+}
+
+
+
+footer {
+	padding: 11px;
+
+}

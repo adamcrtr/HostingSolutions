@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spartan Hosting Solutions</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spartan Hosting Solutions, we specialize in quality hosting solutions for your small to large business hosting needs.">
+    <meta name="keywords" content="Hosting, website hosting, small bussiness, large business, medium business, web hosting, web creation.">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+  <script>
+$(document).ready(function(){
+  $("h4").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".headbtn").click(function(){
+    $("#h1").css("color", "red")
+      .slideUp(2000)
+      .slideDown(2000);
+  });
+});
+</script>
+
+
+
+  <script>
+function changeFontSize (id) {
+	var list = document.getElementById(id) ,
+	fontSize = list.style.fontSize ,
+	sizes = [16, 20, 24, 28] ,
+	len = sizes.length ,
+	i;
+  if (!fontSize) {
+  list.style.fontSize = sizes [1] + 'px';
+  } else {
+	for (i = 0; i < len; i++) {
+		if (i == len - 1) {
+		list.style.fontSize =sizes[0] + 'px' ;
+	} else if (fontSize == sizes [i] + 'px') {
+		list.style.fontSize = sizes[i + 1] + 'px';
+		break;
+			}
+		}
+	}
+
+}
+</script>
+
+  </head>
+  <body id="enlarge">
+
+  <div class ="container-fluid textheader" >
+
+
+    <div class="row ">
+      <div class="col-sm-12 centeralign h1">
+        <h1 id="h1">Spartan Hosting Solutions</h1>
+        <button class="btn btn-dark headbtn">Click Me</button>
+      </div>
+</div>
+
+    </div>
+
+</div>
+<!--- navigation bar --->
+	<nav class="navbar navbar-expand-md  navbar-dark justify-content-center " style="background-color : #223026; ">
+		<a class="navbar-brand" href="index.html">
+			<img src="IMAGES/logo.png" alt="logo" style="width:100px;">
+
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link" href="hosting.html">Hosting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+    <button class="btn btn-danger navbar-btn btnmain">Log In</button>
+  </div>
+</nav>
+<!-- navigation bar end -->
+<div class="container-fluid">
+  <div class="container">
+    <div class"row">
+      <div class="col-sm-12 centeralign">
+
+		<a href="Javascript:;" onClick="changeFontSize('enlarge')"><i class="fas fa-search fa-5x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid packagecontent">
+<div class="container" >
+ <div class="row">
+    <div class="col-sm-6 packagecontent ">
+    <div class="container ">
+  <a class="indextool" href="#" data-toggle="tooltip" title="Prices on Hosting page"><h2 >Silver</h2></a>
+  <p>Small Businesses</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Includes</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1 Domain Name</td>
+
+      </tr>
+      <tr>
+        <td>50GB Storage</td>
+
+      </tr>
+      <tr>
+        <td>24 Hour Support</td>
+
+      </tr>
+	   <tr>
+	   <td>
+	   <a href="hosting.html" class="btn btn-info " role="button">Learn More</a>
+	   </td>
+	  </tr>
+    </tbody>
+  </table>
+
+</div>
+    </div>
+    <div class="col-sm-6 packagecontent">
+	<div class="container">
+    <a class="indextool" href="#" data-toggle="tooltip" title="Prices on Hosting page"><h2>Gold</h2></a>
+  <p>Medium to Large Businesses</p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Includes</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3 Domain names</td>
+
+      </tr>
+      <tr>
+        <td>100 gb storage</td>
+
+      </tr>
+      <tr>
+        <td>24 hour support</td>
+
+      </tr>
+	  <tr>
+	   <td>
+	   <a href="hosting.html" class="btn btn-info" role="button">Learn More</a>
+	   </td>
+	  </tr>
+    </tbody>
+  </table>
+
+	     </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="container-fluid bgred" >
+ <h1>Why we are the best</h1>
+	<div class="row">
+
+		<div class="col-sm-4 centeralign" >
+		    <h4>Voted the best</h4>
+        <i class="fas fa-vote-yea fa-5x" aria-hidden="true"></i>
+        <hr>
+		</div>
+
+		<div class="col-sm-4 centeralign" >
+		    <h4>Mission Driven</h4>
+        <i class="fa fa-bullseye fa-5x" aria-hidden="true"></i>
+        <hr>
+		</div>
+
+		<div class="col-sm-4 centeralign" >
+		    <h4>24 hour support</h4>
+        <i class="fas fa-wrench fa-5x" aria-hidden="true"></i>
+        <hr>
+		</div>
+
+    <div class="col-sm-12 centeralign">
+      <h4> 99% Server Uptime </h4>
+      <i class="fa fa-server fa-5x" aria-hidden="true"></i>
+      <hr>
+    </div>
+
+
+	</div>
+ </div>
+
+<div class="container-fluid bgwhite"  >
+
+  <footer>
+    <p>Copyright Spartan Solutions 2019 </p>
+  </footer>
+
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+  </body>
+</html>

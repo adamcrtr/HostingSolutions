@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+<script>
+function changeFontSize (id) {
+	var list = document.getElementById(id) ,
+	fontSize = list.style.fontSize ,
+	sizes = [16, 20, 24, 28] ,
+	len = sizes.length ,
+	i;
+  if (!fontSize) {
+  list.style.fontSize = sizes [1] + 'px';
+  } else {
+	for (i = 0; i < len; i++) {
+		if (i == len - 1) {
+		list.style.fontSize =sizes[0] + 'px' ;
+	} else if (fontSize == sizes [i] + 'px') {
+		list.style.fontSize = sizes[i + 1] + 'px';
+		break;
+			}	
+		}
+	}
+		
+}
+</script>
+
+  </head>
+  <body id="fruits">
+<h1 >A fascinating list </h1>
+<ul >
+	<li >Apples</li>
+	<li>Pears</li>
+	<li>Oranges</li>
+</ul>
+<p><a href="Javascript:;" onClick="changeFontSize('fruits')">Change list font size</a>.</p>
+  <button type="button" class="btn btn-secondary"><a href="index.html">Buy Now</a></button>
+  </body>
+</html>
